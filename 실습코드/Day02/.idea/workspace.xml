@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747aed6f-9694-4383-86dd-d754d8706ff3" name="Changes" comment="Day02 실습 코드 추가" />
+    <list default="true" id="747aed6f-9694-4383-86dd-d754d8706ff3" name="Changes" comment="Day02 실습 코드 오타 수정" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2rYe1xhaYfYJphr1pbiL9UWQJ1h" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -29,7 +29,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SoJung/2501_JAVA/실습코드/Day02/src"
+    "last_opened_file_path": "C:/Users/SoJung/2501_JAVA/실습코드/Day03"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -54,11 +54,28 @@
       <option name="project" value="LOCAL" />
       <updated>1736740328148</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day02 실습 코드 오타 수정">
+      <option name="closed" value="true" />
+      <created>1736995312972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736995312972</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day02 실습 코드 오타 수정">
+      <option name="closed" value="true" />
+      <created>1736995416657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736995416657</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day02 실습 코드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day02 실습 코드 추가" />
+    <MESSAGE value="Day02 실습 코드 오타 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day02 실습 코드 오타 수정" />
   </component>
 </project>
