@@ -1,1 +1,2 @@
 JAVA DAY01 질문사항 - https://chambray-polonium-827.notion.site/2501-Day01-17bac6a383ea80cf8418c56c7ac71722 <br>
+JAVA DAY02 질문사항 - https://chambray-polonium-827.notion.site/2501-Day02-17dac6a383ea805a9e63e0770854e192 <br>
