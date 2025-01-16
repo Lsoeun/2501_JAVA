@@ -18,7 +18,7 @@ public class ImplicitConversion {
 
     // 연산 중의 자동 형 변환
     double dNum;
-    dNum = fNum + iNum; // // dNum에 20.0 + 20.0이 계산되어 40.0 (double)으로 할당됨
+    dNum = fNum + iNum; // dNum에 20.0 + 10.0이 계산되어 30.0 (double)으로 할당됨
     System.out.println(dNum);
     }
 }
