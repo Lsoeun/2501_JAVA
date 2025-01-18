@@ -23,7 +23,6 @@ public class Test {
 
     // 메인 메서드: 각 메서드를 호출하여 결과를 출력
     public static void main(String[] args) {
-
         Test test = new Test();
 
         // 문제 1

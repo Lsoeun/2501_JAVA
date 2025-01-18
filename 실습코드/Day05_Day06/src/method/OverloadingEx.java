@@ -1,6 +1,6 @@
 package method;
 
-public class OverloadingExample {
+public class OverloadingEx {
     // 두 정수를 더하는 메서드
     public int add(int a, int b) {
         return a + b;
@@ -17,7 +17,7 @@ public class OverloadingExample {
     }
 
     public static void main(String[] args) {
-        OverloadingExample example = new OverloadingExample();
+        OverloadingEx example = new OverloadingEx();
 
         // 메서드 호출
         int sum1 = example.add(5, 10);          // 두 정수

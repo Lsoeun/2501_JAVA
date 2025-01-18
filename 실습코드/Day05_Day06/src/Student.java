@@ -1,4 +1,5 @@
 public class Student {
+    // 멤버 변수
     int studentID; // 학번
     String studentName; // 학생이름
     int grade; // 학년
