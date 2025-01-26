@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2765c4be-e5f5-4aea-83dc-4fcd9b89bdaa" name="Changes" comment="질문사항 추가" />
+    <list default="true" id="2765c4be-e5f5-4aea-83dc-4fcd9b89bdaa" name="Changes" comment="질문사항, 참고자료 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,13 +83,22 @@
       <option name="project" value="LOCAL" />
       <updated>1736995160752</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="질문사항, 참고자료 추가">
+      <option name="closed" value="true" />
+      <created>1737780901530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737780901531</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="코드 폴더 수정" />
     <MESSAGE value="코드 수정" />
     <MESSAGE value="질문사항 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="질문사항 추가" />
+    <MESSAGE value="질문사항, 참고자료 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="질문사항, 참고자료 추가" />
   </component>
 </project>
