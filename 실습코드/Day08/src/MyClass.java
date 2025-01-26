@@ -27,8 +27,8 @@ public class MyClass {
         MyClass myClass2 = new MyClass(10);
         MyClass myClass3 = new MyClass(10, 20);
 
-       myClass1.showClass();
-       myClass2.showClass();
-       myClass3.showClass();
+        myClass1.showClass();
+        myClass2.showClass();
+        myClass3.showClass();
     }
 }
