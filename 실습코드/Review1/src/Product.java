@@ -1,4 +1,5 @@
 public class Product {
+    // 필드
     String name;
     int price;
 
@@ -17,7 +18,7 @@ public class Product {
         // Product 객체 배열 생성 (크기 3)
         Product[] products = new Product[3];
 
-        // 인덱스를 활용한 객체 초기화
+        // 인덱스를 활용한 배열 초기화
         products[0] = new Product("노트북", 1500000);
         products[1] = new Product("스마트폰", 1000000);
         products[2] = new Product("태블릿", 700000);

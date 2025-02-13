@@ -1,4 +1,5 @@
 public class StudentInfo {
+    // 필드
     String name;
     int age;
     double score;

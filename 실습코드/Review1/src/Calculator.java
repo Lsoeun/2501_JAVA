@@ -44,7 +44,7 @@ public class Calculator {
         calc.subtract(10, 5);   // 빼기
         calc.multiply(10, 5);   // 곱하기
         calc.divide(10, 5);     // 나누기
-        calc.divide(10, 0);     // 0으로 나누기 (예외 처리)
+        calc.divide(10, 0);     // 0으로 나누기 (예외 상황 처리)
 
         // 최종 결과 출력
         System.out.println("최종 계산 결과: " + Calculator.getResult());
