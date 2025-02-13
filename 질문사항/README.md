@@ -6,7 +6,10 @@ JAVA DAY05 질문사항 - https://chambray-polonium-827.notion.site/2501-Day05-1
 JAVA DAY06 질문사항 - https://chambray-polonium-827.notion.site/2501-Day06-190ac6a383ea8027a0b2cd7409312304 <br>
 JAVA DAY07 질문사항 - https://chambray-polonium-827.notion.site/2501-Day07-194ac6a383ea80be8073dc3ff7fb182d <br>
 JAVA Day08 질문사항 - https://chambray-polonium-827.notion.site/2501-Day08-197ac6a383ea80ca91c9f6ac22acc293 <br>
+JAVA Day09 Day10 질문사항 - https://chambray-polonium-827.notion.site/2501-Day09-Day10-199ac6a383ea80fe948be785a663f079 <br>
 
 자바 코드 연습 자료 - https://chambray-polonium-827.notion.site/186ac6a383ea8010a50bf4b4678b5084 <br>
 자바 조건문, 반복문 퀴즈 - https://chambray-polonium-827.notion.site/183ac6a383ea8066a9fafbe2c84c6d5b <br>
 자바 실행과 메모리 - https://chambray-polonium-827.notion.site/12eac6a383ea804cab6cf2f69a106352 <br>
+JAVA1 총정리 - https://chambray-polonium-827.notion.site/JAVA1-155ac6a383ea80cf9908e397d4beb656 <br>
+JAVA1 리뷰 문제 -  https://chambray-polonium-827.notion.site/JAVA1-197ac6a383ea8096be7df6fbe033e9ce <br>
