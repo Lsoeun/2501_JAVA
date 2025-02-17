@@ -10,12 +10,13 @@ public class ThrowsException2 {
     public static void main(String[] args) {
         ThrowsException2 test = new ThrowsException2();
         try {
-            test.loadClass("a.txt", "java.lang.String");
+            test.loadClass("a.txt", "Person");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-        } catch (Exception e) { // Exception  클래스로 그 외 예외 상황 처리
+        } catch (Exception e) { // Exception  클래스로 그 외의 예외 상황 처리
+            // 여러 예외 처리 블록의 가장 아래에 놓여야 함!!
             e.printStackTrace();
         }
     }

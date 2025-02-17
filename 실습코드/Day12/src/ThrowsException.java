@@ -13,7 +13,7 @@ public class ThrowsException {
     public static void main(String[] args) {
         ThrowsException test = new ThrowsException();
         try {
-            test.loadClass("a.txt", "java.lang.String");
+            test.loadClass("a.txt", "Person");
         } catch (FileNotFoundException e) {
             System.out.println("파일을 찾을 수 없습니다: " + e.getMessage());
         } catch (ClassNotFoundException e) {
@@ -23,7 +23,7 @@ public class ThrowsException {
 
         ThrowsException test2 = new ThrowsException();
         try {
-            test2.loadClass("a.txt", "java.lang.String");
+            test2.loadClass("a.txt", "Person");
         } catch (FileNotFoundException | ClassNotFoundException e) {
             e.printStackTrace();
         }

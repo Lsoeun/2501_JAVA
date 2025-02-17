@@ -23,6 +23,5 @@ public class ExceptionHandling2 {
             }
             System.out.println("항상 수행됩니다.");
         }
-        System.out.println("여기도 수행됩니다.");
     }
 }
