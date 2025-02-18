@@ -8,6 +8,8 @@ JAVA DAY07 질문사항 - https://chambray-polonium-827.notion.site/2501-Day07-1
 JAVA Day08 질문사항 - https://chambray-polonium-827.notion.site/2501-Day08-197ac6a383ea80ca91c9f6ac22acc293 <br>
 JAVA Day09 Day10 질문사항 - https://chambray-polonium-827.notion.site/2501-Day09-Day10-199ac6a383ea80fe948be785a663f079 <br>
 JAVA Day11 질문사항 - https://chambray-polonium-827.notion.site/2501-Day11-19bac6a383ea80ff8daef37d0c29ea57 <br>
+JAVA Day12 추가정리 - https://chambray-polonium-827.notion.site/2501-Day12-19eac6a383ea800d9dc7e88f5642d0e9 <br>
+
 
 자바 코드 연습 자료 - https://chambray-polonium-827.notion.site/186ac6a383ea8010a50bf4b4678b5084 <br>
 자바 조건문, 반복문 퀴즈 - https://chambray-polonium-827.notion.site/183ac6a383ea8066a9fafbe2c84c6d5b <br>
