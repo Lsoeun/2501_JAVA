@@ -4,7 +4,7 @@ public class Creature {
     class Animal {
         private String name = "호랑이";
 
-        int getOuter() {
+        public int getOuter() {
             return life;
         }
     }

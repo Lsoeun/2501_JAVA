@@ -4,7 +4,7 @@ public class OuterClass2 { // 외부 클래스
     private InClass inClass; // 내부 클래스 자료형 변수를 먼저 선언
 
     public OuterClass2() { // 외부 클래스 생성자
-        inClass = new InClass(); // 외부 클래스가 생성된 후 내부 클래스 생성 가능
+        inClass = new InClass(); // 외부 클래스가 생성된 후 내부 클래스 생성
     }
 
     class InClass { // 인스턴스 내부 클래스
