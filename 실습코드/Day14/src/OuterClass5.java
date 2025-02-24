@@ -22,5 +22,5 @@ public class OuterClass5 {
         public void run() {
             System.out.println("Runnable의 구현된 익명 클래스 변수");
         }
-    }; // 클래스 끝에 ;를 씀. 인터페이스나 추상클래스형 변수를 선언하고 클래스를 생성해 대입하는 방법
+    }; // 클래스 끝에 ;를 씀. 인터페이스나 추상클래스형 변수를 선언하고 인스턴스를 생성해 대입하는 방법
 }

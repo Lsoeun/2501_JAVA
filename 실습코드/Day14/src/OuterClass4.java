@@ -13,9 +13,9 @@ public class OuterClass4 {
                 //num = 200; 지역변수는 상수로 바뀌므로 값을 변경할 수 없어 오류 발생
                 //i = 100; // 매개변수도 상수로 바뀌므로 값을 변경할 수 없어 오류 발생
 
-                System.out.println("i = " + i);
-                System.out.println("num = " + num);
-                System.out.println("localNum = " + localNum);
+                System.out.println("i = " + i); // 외부 클래스 메서드의 매개변수
+                System.out.println("num = " + num); // 외부 클래스 메서드의 지역변수
+                System.out.println("localNum = " + localNum); // 지역 내부 클래스의 인스턴스 변수
                 System.out.println("outNum = " + outNum + "(외부 클래스 인스턴스 변수)");
                 System.out.println("Outer.sNum = " + OuterClass4.sNum + "(외부 클래스 정적 변수)");
             }
