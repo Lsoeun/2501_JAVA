@@ -8,7 +8,7 @@ public class TreeSetEx2 {
         int[] score = {80, 95, 50, 35, 45, 65, 10, 100};
 
         for(int i = 0; i < score.length; i++) {
-            // 각 배열 요소를 Integer 객체로 래핑하여 TreeSet에 추가
+            // 각 배열 요소를 Integer 객체로 박싱하여 TreeSet에 추가
             set.add(Integer.valueOf(score[i]));
         }
 

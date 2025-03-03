@@ -15,31 +15,32 @@ public class ListTest {
 
         System.out.println("= 순차적으로 추가하기 =");
         // 리스트에 데이터를 순차적으로 추가하는 속도를 비교
-        System.out.println("ArrayList : " + add1(al));
+        System.out.println("ArrayList : " + add1(al)); // 더 빠름
         System.out.println("LinkedList : " + add1(ll));
         System.out.println();
 
         System.out.println("= 중간에 추가하기 =");
         // 리스트의 중간에 데이터를 추가하는 속도를 비교
         System.out.println("ArrayList : " + add2(al));
-        System.out.println("LinkedList : " + add2(ll));
+        System.out.println("LinkedList : " + add2(ll)); // 더 빠름
         System.out.println();
 
         System.out.println("= 중간에서 삭제하기 =");
         // 리스트의 중간에서 데이터를 삭제하는 속도를 비교
         System.out.println("ArrayList : " + remove2(al));
-        System.out.println("LinkedList : " +remove2(ll));
+        System.out.println("LinkedList : " +remove2(ll)); // 더 빠름
         System.out.println();
 
         System.out.println("= 순차적으로 삭제하기 =");
         // 리스트의 데이터를 순차적으로 삭제하는 속도를 비교
-        System.out.println("ArrayList : " + remove1(al));
+        System.out.println("ArrayList : " + remove1(al)); // 더 빠름
         System.out.println("LinkedList : " + remove1(ll));
         System.out.println();
     }
 
     // 순차적으로 데이터를 추가하는 메서드
     public static long add1(List list) {
+        // currentTimeMillis() -> 시간을 밀리초 단위로 반환(1초의 1/1000에 해당, 1초는 1000 밀리초)
         long start = System.currentTimeMillis(); // 시작 시간 기록
 
         for(int i = 0; i < 1000000; i++) {  // 1,000,000개의 데이터를 순차적으로 추가
