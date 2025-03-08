@@ -4,11 +4,11 @@ public class DoWhileExample {
         int sum = 0;
 
         do {
-            // 주어진 조건이 참이 아니더라도 무조건 한번 수행함
-            sum += num;
-            num++;
+            // 주어진 참이 아니더라도 무조건 한번 수행함
+            sum += num; // sum = sum + num
+            num++; // num = num + 1
         } while(num <= 10);
 
-        System.out.println("1부터 10까지의 합은 " + sum + "입니다.");
+        System.out.println("1부터 10까지의 합은" + sum + "입니다.");
     }
 }

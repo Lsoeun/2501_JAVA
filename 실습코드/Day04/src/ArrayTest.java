@@ -3,12 +3,10 @@
 // 배열에 저장된 값을 하나씩 출력하세요.
 public class ArrayTest {
     public static void main(String[] args) {
-        // 배열 선언과 동시에 값 할당
-        int[] numbers = {1, 2, 3, 4, 5, 6, 7};
-
-        // for문을 사용해 배열의 요소값 출력
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.println(numbers[i]);  // 배열의 값을 하나씩 출력
+        int[] num = {1, 2, 3, 4, 5, 6, 7}; // 배열 선언과 동시에 값 할당
+        
+        for (int i = 0; i < num.length; i++) {
+            System.out.println(num[i]); // 배열의 값을 하나씩 출력
         }
     }
 }

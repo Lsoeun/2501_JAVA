@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// 지네릭을 사용하여 처리하는 경우
 public class WithGenerics {
-    // 지네릭을 사용하여 모든 타입의 리스트를 출력하는 함수
     public static <T> void printList(List<T> list) {
         for (T item : list) {
-            System.out.println(item); // T는 리스트의 요소 타입
+            System.out.println(item);
         }
     }
 
@@ -20,10 +20,10 @@ public class WithGenerics {
         stringList.add("banana");
         stringList.add("cherry");
 
-        System.out.println("Integer List:");
-        printList(integerList); // 지네릭을 사용하여 정수 리스트 출력
+        System.out.println("IntegerList");
+        printList(integerList);
 
-        System.out.println("String List:");
-        printList(stringList); // 지네릭을 사용하여 문자열 리스트 출력
+        System.out.println("StringList");
+        printList(stringList);
     }
 }

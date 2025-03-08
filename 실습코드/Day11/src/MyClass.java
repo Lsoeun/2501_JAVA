@@ -1,4 +1,3 @@
-// 두 인터페이스를 구현하는 클래스
 public class MyClass implements InterfaceA, InterfaceB {
     @Override
     public void display() {
@@ -6,7 +5,12 @@ public class MyClass implements InterfaceA, InterfaceB {
     }
 
     public static void main(String[] args) {
-        MyClass myClass = new MyClass();
-        myClass.display(); // 호출: MyClass의 display 메서드
+        MyClass myclass1 = new MyClass();
+        InterfaceA myclass2 = new MyClass();
+        InterfaceB myclass3 = new MyClass();
+
+        myclass1.display();
+        myclass2.display();
+        myclass3.display();
     }
 }

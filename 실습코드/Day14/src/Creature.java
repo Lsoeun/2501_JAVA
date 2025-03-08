@@ -1,11 +1,15 @@
 public class Creature {
-    private int life = 50;
+    public int life;
 
-    class Animal {
-        private String name = "호랑이";
+    class Animal { // 내부 클래스
 
-        public int getOuter() {
-            return life;
-        }
+    }
+
+    class Insect{ // 내부 클래스
+
+    }
+
+
+    public void method() {
     }
 }

@@ -1,9 +1,9 @@
 public class TwoDimension2 {
     public static void main(String[] args) {
         int[][] arr = new int[2][3]; // 2행 3열의 2차원 배열 선언
-        
-        for(int i = 0; i < arr.length; i++) { // arr.length = 행 길이
-            for(int j = 0; j < arr[i].length; j++) { // arr[i].length = 열 길이
+
+        for(int i = 0; i < arr.length; i++) { // 행 순회
+            for(int j = 0; j < arr[i].length; j++) { // 열 순회
                 System.out.println(arr[i][j]);
             }
             System.out.println();

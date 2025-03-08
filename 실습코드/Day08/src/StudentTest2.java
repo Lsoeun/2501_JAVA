@@ -1,13 +1,8 @@
 public class StudentTest2 {
     public static void main(String[] args) {
-        Student1 studentLee = new Student1();
-        studentLee.setStudentName("이지원");
-        System.out.println(Student1.serialNum); // serialNum 변수를 직접 클래스 이름으로 참조
-        System.out.println(studentLee.studentName + " 학번:" + studentLee.studentID);
+        System.out.println(Student1.serialNum); // static 변수를 클래스 이름으로 접근
 
-        Student1 studentSon = new Student1();
-        studentSon.setStudentName("손수경");
-        System.out.println(Student1.serialNum); // serialNum 변수를 직접 클래스 이름으로 참조
-        System.out.println(studentSon.studentName + " 학번:" + studentSon.studentID);
+        Student1 student = new Student1();
+        System.out.println(student.serialNum); // static 변수를 참조변수를 통해 접근
     }
 }

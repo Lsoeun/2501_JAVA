@@ -1,15 +1,11 @@
 public class DeskTop extends Computer {
-
     @Override
     public void display() {
-        // 추상 메서드의 몸체 코드 작성
-        System.out.println("DeskTop display()");
-
+        System.out.println("데스크탑의 디스플레이");
     }
 
     @Override
     public void typing() {
-        // 추상 메서드의 몸체 코드 작성
-        System.out.println("DeskTop typing()");
+        System.out.println("데스크탑의 타이핑");
     }
 }

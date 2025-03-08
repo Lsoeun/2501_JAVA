@@ -1,4 +1,3 @@
-// 논리 연산자 예제 1
 public class Logical1 {
     public static void main(String[] args) {
         System.out.println(10 > 3 && 3 == 3);

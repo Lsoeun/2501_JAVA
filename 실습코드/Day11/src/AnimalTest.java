@@ -1,16 +1,15 @@
 public class AnimalTest {
     public static void main(String[] args) {
-// Animal animal = new Animal();  // 에러! 추상 클래스는 인스턴스화할 수 없음
+        // Animal animal = new Animal(); // 에러! 추상 클래스는 인스턴스화 할 수 없음!!!
 
-        // Cat과 Dog 객체 생성
+        // 하위 클래스로 인스턴스 생성
         Cat cat = new Cat();
-        Dog dog = new Dog();
-
         // 메서드 호출
-        cat.eat();    // 출력: 이 동물은 음식을 먹습니다.
-        cat.sound();  // 출력: 야옹
+        cat.sound(); // 재정의한 메서드 호출
+        cat.eat();
 
-        dog.eat();    // 출력: 이 동물은 음식을 먹습니다.
-        dog.sound();  // 출력: 멍멍
+        Animal cat2 = new Cat();
+        cat2.eat();
+        cat2.sound(); // 재정의한 메서드 호출
     }
 }

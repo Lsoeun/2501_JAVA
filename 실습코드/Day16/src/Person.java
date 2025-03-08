@@ -1,25 +1,27 @@
+import java.util.Objects;
+
 public class Person {
     String name;
     int age;
 
-    public  Person(String name, int age) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public boolean equals(Object obj) {
-        if (obj instanceof Person) {
-            Person tmp = (Person)obj;
-            return name.equals(tmp.name) && age == tmp.age;
-        }
-
-        return false;
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return age == person.age && Objects.equals(name, person.name);
     }
 
+    @Override
     public int hashCode() {
-        return (name + age).hashCode();
+        return Objects.hash(name, age);
     }
 
+    @Override
     public String toString() {
         return name + ":" + age;
     }

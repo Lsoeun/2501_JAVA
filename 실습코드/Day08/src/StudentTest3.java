@@ -1,15 +1,13 @@
 public class StudentTest3 {
     public static void main(String[] args) {
         Student2 studentLee = new Student2();
-        studentLee.setStudentName("이지원");
-        System.out.println(Student2.getSerialNum());
-        // serialNum 값을 가져오기 위해 get()메서드를 클래스 이름으로 직접 호출
-        System.out.println(studentLee.studentName + " 학번:" + studentLee.studentID);
+        studentLee.setStudentName("이학생");
+        System.out.println(Student2.getSerialNum()); // static 메서드 호출
+        System.out.println(studentLee.studentID); // 인스턴스 변수 접근
 
         Student2 studentSon = new Student2();
-        studentSon.setStudentName("손수경");
-        System.out.println(Student2.getSerialNum());
-        // serialNum 값을 가져오기 위해 get()메서드를 클래스 이름으로 직접 호출
-        System.out.println(studentSon.studentName + " 학번:" + studentSon.studentID);
+        studentSon.setStudentName("손학생");
+        System.out.println(Student2.getSerialNum()); // static 메서드 호출
+        System.out.println(studentSon.studentID); // 인스턴스 변수 접근
     }
 }

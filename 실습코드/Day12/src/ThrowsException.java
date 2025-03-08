@@ -14,15 +14,16 @@ public class ThrowsException {
         ThrowsException test = new ThrowsException();
         try {
             test.loadClass("a.txt", "Person");
-        } catch (FileNotFoundException e) {
-            System.out.println("파일을 찾을 수 없습니다: " + e.getMessage());
+        } catch (FileNotFoundException e){
+            System.out.println("파일을 찾을 수 없습니다." + e.getMessage());
         } catch (ClassNotFoundException e) {
-            System.out.println("클래스를 찾을 수 없습니다: " + e.getMessage());
+            System.out.println("클래스를 찾을 수 없습니다." + e.getMessage());
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
-
         ThrowsException test2 = new ThrowsException();
-        try {
+        try{
             test2.loadClass("a.txt", "Person");
         } catch (FileNotFoundException | ClassNotFoundException e) {
             e.printStackTrace();

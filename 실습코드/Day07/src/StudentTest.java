@@ -1,11 +1,10 @@
 public class StudentTest {
     public static void main(String[] args) {
         Student studentLee = new Student();
-        // studentLee.studentName = "이상원"; // 오류발생
+        // studentLee.studentName = "바보"; -> 직접 접근해서 설정 불가능
+        studentLee.setStudentName("이이름"); // -> 메서드를 통해서 설정하는 것은 가능
 
-        studentLee.setStudentName("이상원");
-        // setStudentName() 메서드 활용해 private 변수에 접근 가능
-
-        System.out.println(studentLee.getStudentName());
+        // System.out.println(studentLee.studentName); -> 직접 접근해서 조회 불가능
+        System.out.println(studentLee.getStudentName()); // -> 메서드를 통해서 조회하는 것은 가능
     }
 }

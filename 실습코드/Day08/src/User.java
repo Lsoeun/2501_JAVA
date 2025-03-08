@@ -3,16 +3,6 @@ public class User {
     protected String account;
     public String password;
 
-    public User(int id, String account, String password) {
-        this.id = id;
-        this.account = account;
-        this.password = password;
-    }
-
-    public User(int id) {
-        this(id, "a", "b");
-    }
-
     public void printId() {
         System.out.println(this.id);
     }
@@ -24,7 +14,16 @@ public class User {
     }
 
     public static void main(String[] args) {
-        User user = new User(123);
+        User user = new User();
+        user.id = 1001;
+        user.password = "myPassword";
+        user.account = "myAccount";
         user.printAll();
+
+        User user2 = new User();
+        user2.id = 1002;
+        user2.password = "PS";
+        user2.account = "AC";
+        user2.printAll();
     }
 }
